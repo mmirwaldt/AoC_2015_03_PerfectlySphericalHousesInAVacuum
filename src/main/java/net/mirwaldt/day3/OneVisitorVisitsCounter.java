@@ -3,7 +3,7 @@ package net.mirwaldt.day3;
 import java.util.HashSet;
 import java.util.Set;
 
-public class DefaultVisitsCounter implements VisitsCounter {
+public class OneVisitorVisitsCounter implements VisitsCounter {
     @Override
     public int countVisits(String directions) {
         final Set<Point> visited = new HashSet<>();

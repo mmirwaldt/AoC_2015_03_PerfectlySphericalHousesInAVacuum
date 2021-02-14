@@ -8,8 +8,8 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class VisitsCounterTest {
-    private final static VisitsCounter visitsCounter = new DefaultVisitsCounter();
+public class OneVisitorVisitsCounterTest {
+    private final static VisitsCounter visitsCounter = new OneVisitorVisitsCounter();
 
     private static Stream<Arguments> visitsCounter() {
         return Stream.of(Arguments.of(visitsCounter));
